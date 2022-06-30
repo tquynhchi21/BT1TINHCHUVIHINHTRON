@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="scrit.js"></script>
 </head>
 <body>
-<script>
-let radius = +prompt('nhập bán kính hình tròn') ;
-let area = Math.PI * radius * radius
-document.write("dien tich hinh tron la: "+area)
-</script>
+<table> bán kính</table>
+<input id="radius" type="text"> <br>
+<button onclick="dienTich()">dienTich</button>
+<button onclick="chuVi()">chuVi</button>
+<br>
+<input id="ketQua" type="text">
+<button onclick="reload()">reset</button>
+
 </body>
 </html>
